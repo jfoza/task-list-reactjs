@@ -4,9 +4,14 @@ import List from "./components/List";
 import "./App.css";
 
 export default function App() {
+    let input = document.getElementById('taskInput')
+
     const [tasks, setTask] = useState([]);
 
     const addTask = (task) => {
+        if(input == null) {
+            window.alert('Digite uma tarefa para a lista');
+        }
         setTask([ ...tasks, task ]);
     };
 
@@ -15,6 +20,10 @@ export default function App() {
         newTasks.splice(index, 1);
 
         setTask(newTasks);
+    }
+
+    const editTask = index => {
+
     }
 
     return (
