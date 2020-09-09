@@ -1,0 +1,46 @@
+body{
+    background-color: #F0F0F0; 
+  }
+  .App{
+    background-color: #8257E5;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 40px;
+  }
+
+  #todo-form input{
+    width: 200px;
+    height: 25px;
+    padding: 0 20px;
+    margin: 25px;
+  }
+
+  #todo-form label {
+    font-family: 'Archivo', sans-serif;
+    font-size: 20pt;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    color: #F0F0F0;
+   
+  }
+
+  #todo-form button{
+    font-family: 'Archivo', sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #04D361;
+    color: #F0F0F0;
+  } 
+
+  #list {
+      margin: 25px;
+      font-family: 'Archivo', sans-serif;
+      font-size: 8pt;
+      color: #F0F0F0;
+  }
+
+  
